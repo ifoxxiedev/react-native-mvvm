@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login snapshot test should match snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View>
+    <Text>
+      E-mail
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      autoComplete="off"
+      onChangeText={[MockFunction]}
+      placeholder="email@email.com"
+      value=""
+    />
+  </View>
+  <View>
+    <Text>
+      Password
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="Password"
+      secureTextEntry={true}
+      value=""
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text>
+      Login
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
